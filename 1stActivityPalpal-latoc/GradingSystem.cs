@@ -80,7 +80,7 @@ namespace infosoft_crash_course
                 Console.WriteLine($"Your Final Average is: {finalAverage:F2}");
                 Console.WriteLine("Which is considered as Failed");
             }
-            else if (finalAverage <= 100)
+            else if (finalAverage >= 75 && finalAverage <= 100)
             {
                 Console.WriteLine($"Your Final Average is: {finalAverage:F2}");
                 Console.WriteLine("Which is considered as Passed");
