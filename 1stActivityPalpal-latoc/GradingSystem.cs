@@ -49,7 +49,7 @@ namespace infosoft_crash_course
             {
                 while (true)
                 {
-                    Console.Write($"Enter grade for Subject {i + 1}: ");
+                    Console.Write($"Enter grade for Subject {subjects[i]}: ");
                     if (int.TryParse(Console.ReadLine(), out grades[i]) && grades[i] >= 0 && grades[i] <= 100) //error handling 
                     {
                         break;
