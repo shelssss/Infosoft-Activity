@@ -65,7 +65,7 @@ namespace infosoft_crash_course
             // provided 2 formula
             // total percentage to use in the finalAvg 
             double totalPercentage = numberOfSubjects / 100.0;
-            double finalAvg = totalSum / (totalPercentage * 100);
+            double finalAvg = (double) totalSum / (totalPercentage * 100);
 
             // another formula for final Average
             // type cast the total sum as double for ensuring correct output
