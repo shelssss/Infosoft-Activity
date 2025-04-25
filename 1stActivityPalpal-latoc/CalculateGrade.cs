@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1stActivityPalpal_latoc
 {
-    class CalculateGrade : Abstract_Class //inheritance
+    public class CalculateGrade : Abstract_Class //inheritance
     {
         double sumGrades { get; set; }
 

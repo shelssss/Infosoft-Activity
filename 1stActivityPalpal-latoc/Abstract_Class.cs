@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace _1stActivityPalpal_latoc
 {
     // Abstraction
-    abstract class Abstract_Class
+   public abstract class Abstract_Class
     {
         //encapsulation
         public string name { get; set; }
-        public int numberOfSubjects { get; set; }
+        public int numberOfSubjects { get; set; } 
         public string[] subjects { get; set; }
         public double[] grades { get; set; }
 
@@ -25,6 +25,7 @@ namespace _1stActivityPalpal_latoc
 
         // Abstraction of function can be morph into sometime from the other class
         public abstract void calculateGrade();
+       
 
 
 
